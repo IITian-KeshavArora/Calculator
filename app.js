@@ -40,7 +40,7 @@ let input = document.querySelector('input');
 let valueOfInput = input.value;
 
 
-const functions = ['%', 'X', '-', '+', '=', '/', '.', 'CE'];
+const functions = ['%', 'X', '-', '+', '=', '/', '.', 'CE', 'C'];
 
 spans.forEach(span =>
    span.addEventListener('click', ()=>
