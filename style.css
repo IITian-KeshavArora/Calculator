@@ -1,0 +1,191 @@
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.theme
+{
+    height:1.7rem;
+    width:3rem;
+    background-color: grey;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    cursor:pointer;
+    margin-left: 10px;
+}
+
+.calc
+{
+    width:80%;
+    margin: auto;
+}
+
+.history>img
+{
+    height:1.7rem;
+    width:1.7rem;
+    margin-top: 1.5rem;
+    cursor:pointer;
+    margin-right: 10px;
+}
+.history > img:hover
+{
+    height:1.8rem;
+    width:1.8rem;
+}
+
+body
+{
+    background-color: rgb(23, 24, 37);
+}
+.header > h1
+{
+    color:yellow;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.5s 0.2s;
+}
+.header > h1:hover
+{
+    text-shadow: 2px 2px 10px yellow;
+}
+
+.onOff
+{
+    background-color: white;
+    height:1.5rem;
+    width:1.6rem;
+    border-radius: 50%;
+    margin-top: 0.1rem;
+}
+
+.On
+{
+    background-color: white;
+    height:1.5rem;
+    width:1.6rem;
+    border-radius: 50%;
+    margin-top: 0.1rem;
+    margin-left:40%;
+}
+
+.darkMode
+{
+    background-color: black;
+    border-radius: 2rem;
+}
+
+.OnButtonColor
+{
+    background-color: rgb(23, 24, 37);
+}
+
+/*
+Now I will design the input part
+*/
+input
+{
+    width:98%;
+    margin-left: 1%;
+    height:2.5rem;
+    border-radius: 0.4rem;
+    cursor:text;
+    height:4rem;
+    background-color: #34495E80;
+    border:2px solid #34495E80;
+    outline:none;
+    font-size: 2.5rem;
+    color: white;
+    text-align: right;
+}
+
+.buttons div span
+{
+    color:black;
+    font-size: 2rem;
+    background-color: white;
+   height:4rem;
+   width:18rem;
+   border-radius: 1rem;
+   text-align: center;
+   margin-right: 10px;
+   padding-top: 10px;
+   cursor: pointer;
+}
+
+.buttons
+{
+    margin-top: 1rem;
+    padding-bottom: 1px;
+    margin-left: 15px;
+    margin-right: 10px;
+    
+}
+
+.buttons div
+{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#Clear
+{
+    width:8.5rem;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#del
+{
+    width:8rem;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+     font-family: 'Courier New', Courier, monospace;
+}
+
+/*
+Now designing the footer of the calculator
+*/
+
+
+.border
+{
+    border-bottom: white 2px solid;
+    width: 70%;
+    margin-left: 15%;
+}
+
+h3
+{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    color:white;
+    cursor:default;
+}
+
+h3 a
+{
+    color:yellow;
+    cursor:pointer;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover
+{
+    text-shadow: 2px 2px 10px yellow;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+    <title>Calculator - Keshav Arora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Calc_Logo.png" type="image/x-icon">
+        
+
+</head>
+<body>
+    <div class="calc">
+        <div class="header">
+            <span class="theme">
+                <div class="onOff" id="onOff"></div>
+            </span>
+            <h1><a onclick="location.reload()">Calculator</a></h1>
+            <!-- Now clicking on this anchor tag will reload the webpage. -->
+            <span class="history"><img src="history.png" alt="history"></span>
+        </div>
+        <div class="input">
+            <input type="text" readonly>
+        </div>
+
+        <div class="buttons">
+                <div id="row1" class="row1">
+                    <span>(</span>
+                    <span>)</span>
+                    <span id="Clear">C</span>
+                    <span id="del">CE</span>
+                    <span>%</span>
+                </div>
+
+                <div class="row2">
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>X</span>
+                </div>
+
+                <div class="row3">
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>-</span>
+                </div>
+
+                <div class="row4">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>+</span>
+                </div>
+
+                <div class="row5">
+                    <span>0</span>
+                    <span>.</span>
+                    <span>/</span>
+                    <span>=</span>
+                </div> 
+                <div class="border"></div>   
+        </div>
+        <div class="footer">
+            
+            <h3>Made with &#x1F496; by <a target="_blank" href="https://www.linkedin.com/in/keshavarora2006/">Keshav Arora</a></h3>
+        </div>
+        
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
