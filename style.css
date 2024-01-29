@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 0;
 }
 .theme
 {
@@ -21,6 +20,7 @@
     width:80%;
     margin: auto;
     margin-top: 2rem;
+    transition: 1s ease, border 0.5s ease;
 }
 
 .history>img
@@ -60,6 +60,7 @@ body
     width:1.6rem;
     border-radius: 50%;
     margin-top: 0.1rem;
+    transition:0.7s;
 }
 
 .On
@@ -77,11 +78,14 @@ body
     background-color: black;
     border-radius: 2rem;
     border: 2px white solid;
+    box-shadow: 2px 2px 10px white;
+    transition:0.7s;
 }
 
 .OnButtonColor
 {
     background-color: rgb(23, 24, 37);
+    transition: 0.7s;
 }
 
 /*
@@ -110,11 +114,12 @@ input
     background-color: white;
    height:4rem;
    width:18rem;
-   border-radius: 1rem;
+   border-radius: 0.7rem;
    text-align: center;
    margin-right: 10px;
    padding-top: 10px;
    cursor: pointer;
+   transition:0.7s;
 }
 
 .buttons
@@ -146,6 +151,14 @@ input
 {
     width:8rem;
     background-color: red;
+    color: white;
+    font-weight: 600;
+     font-family: 'Courier New', Courier, monospace;
+}
+
+#equalsTo
+{
+    background-color: #25db72;
     color: white;
     font-weight: 600;
      font-family: 'Courier New', Courier, monospace;
@@ -209,7 +222,6 @@ a:hover
         margin-left: 2%;
     }
 }
-
 
 
 

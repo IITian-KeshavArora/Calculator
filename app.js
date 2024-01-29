@@ -2,6 +2,10 @@ let onOff = document.querySelector('#onOff');
 let theme = document.querySelector('.theme');
 let calculator = document.querySelector('.calc');
 let spans =document.querySelectorAll('.buttons span');
+let clear = document.querySelector('#Clear');
+let del = document.querySelector('#del');
+let equalsTo = document.querySelector('#equalsTo');
+let h1 = document.querySelector('h1');
 
 
 theme.addEventListener('click', () =>
@@ -12,21 +16,29 @@ theme.addEventListener('click', () =>
     calculator.classList.remove('darkMode');
     onOff.classList.remove('OnButtonColor');
     spans.forEach(function (span)      {
-         span.style.backgroundColor = '#fff';
-      })
-    
-
-
+      span.style.backgroundColor = '#fff';
+      span.style.color = '#000';
+      span.style.borderRadius = '0.7rem';
+   })
+   clear.style.backgroundColor = 'red';
+   del.style.backgroundColor = 'red';
+   equalsTo.style.backgroundColor = '#25db72';
+   h1.style.color = '#FFFF00';
    }
    else
    {
     onOff.classList.add('On');
     calculator.classList.add('darkMode');
     onOff.classList.add('OnButtonColor');
-    spans.forEach(span =>
-      {
-         span.style.backgroundColor = '#55555';
-      })
+    spans.forEach(function (span)      {
+      span.style.backgroundColor = '#555555';
+      span.style.color = '#fff';
+      span.style.borderRadius = '1rem';
+   })
+   clear.style.backgroundColor = 'red';
+   del.style.backgroundColor = 'red';
+   equalsTo.style.backgroundColor = '#25db72';
+   h1.style.color = '#fff';
    }
 
    
